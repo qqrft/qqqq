@@ -1,7 +1,8 @@
-
-name: CI
 ...
-    steps：
-        - uses： actions/checkout@v2
-	- name: ShellCheck
-	  uses: ludeeus/action-shellcheck@2.0.0
+name: CI
+	...
+	steps:
+		...
+		- name: Writegood Check
+                  uses: mnahinkhan/writegood-action@v1.0.0
+
